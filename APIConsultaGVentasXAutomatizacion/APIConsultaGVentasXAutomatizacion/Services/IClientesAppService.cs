@@ -6,6 +6,6 @@ namespace APIConsultaGVentasXAutomatizacion.Services
     {
         bool ValidarRIF(string RIF);
 
-        public Task<IEnumerable<Cliente>> GetClienteXIdentificacion(string NroIdentificacion);
+        public List<Cliente> GetClienteXIdentificacion(string NroIdentificacion);
     }
 }

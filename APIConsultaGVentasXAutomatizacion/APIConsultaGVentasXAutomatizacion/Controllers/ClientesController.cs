@@ -32,9 +32,9 @@ namespace APIConsultaGVentasXAutomatizacion.Controllers
         }
 
         [HttpGet, Route("NumeroIdentificacion")]
-        public async Task<IEnumerable<Cliente>> GetClientePorRIF(string NumeroDeIdentificacion)
+        public List<Cliente> GetClientePorRIF(string NumeroDeIdentificacion)
         {
-            return await _clientesAppService.GetClienteXIdentificacion(NumeroDeIdentificacion);
+            return _clientesAppService.GetClienteXIdentificacion(NumeroDeIdentificacion);
         }
 
 

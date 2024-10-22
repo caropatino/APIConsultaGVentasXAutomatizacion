@@ -4,6 +4,6 @@ namespace APIConsultaGVentasXAutomatizacion.Services
 {
     public interface IOportunidadDeVentaAppService
     {
-        public Task<IEnumerable<OportunidadDeVenta>> GetOportunidadDeVentaPorCliente(Guid ClienteId);
+        public List<OportunidadDeVenta> GetOportunidadDeVentaPorCliente(Guid ClienteId, Guid ProductoId);
     }
 }

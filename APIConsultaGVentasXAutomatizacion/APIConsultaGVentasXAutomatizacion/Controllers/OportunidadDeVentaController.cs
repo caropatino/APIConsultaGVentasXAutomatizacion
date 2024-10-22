@@ -24,9 +24,9 @@ namespace APIConsultaGVentasXAutomatizacion.Controllers
    
 
         [HttpGet, Route("ValidarExistenciaOportunidadVenta")]
-        public async Task<IEnumerable<OportunidadDeVenta>> GetOportunidadDeVentaXCliente(Guid ClienteId) 
+        public List<OportunidadDeVenta> GetOportunidadDeVentaXCliente(Guid ClienteId, Guid ProductoId) 
         {
-            return await _oportunidadDeVentaAppService.GetOportunidadDeVentaPorCliente(ClienteId);
+            return _oportunidadDeVentaAppService.GetOportunidadDeVentaPorCliente(ClienteId, ProductoId);
             
         }
 

@@ -62,10 +62,10 @@ namespace APIConsultaGVentasXAutomatizacion.Services
             }
         }
 
-        public async Task<IEnumerable<Cliente>> GetClienteXIdentificacion(string NroIdentificacion)
+        public List<Cliente> GetClienteXIdentificacion(string NroIdentificacion)
         {
-            return await _context.AppClientes
-                .Where(c => c.NumeroDeIdentificacion == NroIdentificacion).ToListAsync();
+            return _context.AppClientes
+                .Where(c => c.NumeroDeIdentificacion.Equals(NroIdentificacion)).ToList();
                     /*&& c.TenantId.Equals("018FFA54-0C99-E0C2-7202-39F9BCBA9B8E")
                     && c.CompaniaId == 5);*/
         }

@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|c:\\users\\carolina.patino\\documents\\git\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\models\\oportunidaddeventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|solutionrelative:apiconsultagventasxautomatizacion\\models\\oportunidaddeventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|c:\\users\\carolina.patino\\documents\\git\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\services\\ioportunidaddeventaappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|solutionrelative:apiconsultagventasxautomatizacion\\services\\ioportunidaddeventaappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|c:\\users\\carolina.patino\\documents\\git\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\controllers\\oportunidaddeventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|solutionrelative:apiconsultagventasxautomatizacion\\controllers\\oportunidaddeventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|c:\\users\\carolina.patino\\documents\\git\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|solutionrelative:apiconsultagventasxautomatizacion\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|c:\\users\\carolina.patino\\documents\\git\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|solutionrelative:apiconsultagventasxautomatizacion\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|c:\\users\\carolina.patino\\documents\\git\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\services\\oportunidaddeventaappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|solutionrelative:apiconsultagventasxautomatizacion\\services\\oportunidaddeventaappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|c:\\users\\carolina.patino\\documents\\git\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\models\\oportunidaddeventadetalleproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|solutionrelative:apiconsultagventasxautomatizacion\\models\\oportunidaddeventadetalleproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|c:\\users\\carolina.patino\\documents\\git\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\services\\clientesappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|solutionrelative:apiconsultagventasxautomatizacion\\services\\clientesappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|c:\\users\\carolina.patino\\documents\\git\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|solutionrelative:apiconsultagventasxautomatizacion\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|c:\\users\\carolina.patino\\documents\\git\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\apiconsultagventasxautomatizacion\\services\\iclientesappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B5A58F-87FC-4357-9778-46FCADC8173E}|APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion.csproj|solutionrelative:apiconsultagventasxautomatizacion\\services\\iclientesappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 304,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "APIConsultaGVentasXAutomatizacion\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "APIConsultaGVentasXAutomatizacion\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:21:11.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OportunidadDeVentaController.cs",
+              "DocumentMoniker": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Controllers\\OportunidadDeVentaController.cs",
+              "RelativeDocumentMoniker": "APIConsultaGVentasXAutomatizacion\\Controllers\\OportunidadDeVentaController.cs",
+              "ToolTip": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Controllers\\OportunidadDeVentaController.cs",
+              "RelativeToolTip": "APIConsultaGVentasXAutomatizacion\\Controllers\\OportunidadDeVentaController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwBwAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:00:34.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IOportunidadDeVentaAppService.cs",
+              "DocumentMoniker": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Services\\IOportunidadDeVentaAppService.cs",
+              "RelativeDocumentMoniker": "APIConsultaGVentasXAutomatizacion\\Services\\IOportunidadDeVentaAppService.cs",
+              "ToolTip": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Services\\IOportunidadDeVentaAppService.cs",
+              "RelativeToolTip": "APIConsultaGVentasXAutomatizacion\\Services\\IOportunidadDeVentaAppService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:00:21.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OportunidadDeVentaAppService.cs",
+              "DocumentMoniker": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Services\\OportunidadDeVentaAppService.cs",
+              "RelativeDocumentMoniker": "APIConsultaGVentasXAutomatizacion\\Services\\OportunidadDeVentaAppService.cs",
+              "ToolTip": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Services\\OportunidadDeVentaAppService.cs",
+              "RelativeToolTip": "APIConsultaGVentasXAutomatizacion\\Services\\OportunidadDeVentaAppService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAvwA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:00:10.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OportunidadDeVenta.cs",
+              "DocumentMoniker": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Models\\OportunidadDeVenta.cs",
+              "RelativeDocumentMoniker": "APIConsultaGVentasXAutomatizacion\\Models\\OportunidadDeVenta.cs",
+              "ToolTip": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Models\\OportunidadDeVenta.cs",
+              "RelativeToolTip": "APIConsultaGVentasXAutomatizacion\\Models\\OportunidadDeVenta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T13:59:41.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "APIConsultaGVentasXAutomatizacion\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "APIConsultaGVentasXAutomatizacion\\Controllers\\ClientesController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwCQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T13:56:23.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OportunidadDeVentaDetalleProducto.cs",
+              "DocumentMoniker": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Models\\OportunidadDeVentaDetalleProducto.cs",
+              "RelativeDocumentMoniker": "APIConsultaGVentasXAutomatizacion\\Models\\OportunidadDeVentaDetalleProducto.cs",
+              "ToolTip": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Models\\OportunidadDeVentaDetalleProducto.cs",
+              "RelativeToolTip": "APIConsultaGVentasXAutomatizacion\\Models\\OportunidadDeVentaDetalleProducto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:16:45.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IClientesAppService.cs",
+              "DocumentMoniker": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Services\\IClientesAppService.cs",
+              "RelativeDocumentMoniker": "APIConsultaGVentasXAutomatizacion\\Services\\IClientesAppService.cs",
+              "ToolTip": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Services\\IClientesAppService.cs",
+              "RelativeToolTip": "APIConsultaGVentasXAutomatizacion\\Services\\IClientesAppService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T13:56:08.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "APIConsultaGVentasXAutomatizacion\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Models\\Cliente.cs",
+              "RelativeToolTip": "APIConsultaGVentasXAutomatizacion\\Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T13:53:19.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientesAppService.cs",
+              "DocumentMoniker": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Services\\ClientesAppService.cs",
+              "RelativeDocumentMoniker": "APIConsultaGVentasXAutomatizacion\\Services\\ClientesAppService.cs",
+              "ToolTip": "C:\\Users\\carolina.patino\\Documents\\Git\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\APIConsultaGVentasXAutomatizacion\\Services\\ClientesAppService.cs",
+              "RelativeToolTip": "APIConsultaGVentasXAutomatizacion\\Services\\ClientesAppService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwEMAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T13:51:52.193Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
