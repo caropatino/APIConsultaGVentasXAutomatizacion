@@ -13,5 +13,7 @@ namespace APIConsultaGVentasXAutomatizacion.Context
 
         public DbSet<OportunidadDeVentaDetalleProducto> AppOportunidadDeVentaDetalleProductosOV { get; set; }
 
+        public DbSet<Ticket> AppTickets { get; set; }
+
     }
 }

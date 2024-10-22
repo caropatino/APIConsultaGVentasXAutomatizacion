@@ -7,5 +7,6 @@
         public Guid OportunidadDeVentaId { get; set; }
 
         public Guid ProductoOVId { get; set; }
+
     }
 }

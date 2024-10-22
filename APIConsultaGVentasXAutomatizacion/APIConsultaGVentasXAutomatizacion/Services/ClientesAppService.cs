@@ -65,9 +65,9 @@ namespace APIConsultaGVentasXAutomatizacion.Services
         public List<Cliente> GetClienteXIdentificacion(string NroIdentificacion)
         {
             return _context.AppClientes
-                .Where(c => c.NumeroDeIdentificacion.Equals(NroIdentificacion)).ToList();
-                    /*&& c.TenantId.Equals("018FFA54-0C99-E0C2-7202-39F9BCBA9B8E")
-                    && c.CompaniaId == 5);*/
+                .Where(c => c.NumeroDeIdentificacion.Equals(NroIdentificacion)
+                    && c.TenantId == new Guid("018FFA54-0C99-E0C2-7202-39F9BCBA9B8E")
+                    && c.CompaniaId == 5).ToList();
         }
 
         
