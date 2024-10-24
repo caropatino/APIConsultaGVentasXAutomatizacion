@@ -37,6 +37,11 @@ namespace APIConsultaGVentasXAutomatizacion.Controllers
             return _clientesAppService.GetClienteXIdentificacion(NumeroDeIdentificacion);
         }
 
+        [HttpGet, Route("detalle")]
+        public List<ClienteDTO> GetDetallesCliente(Guid ClienteId)
+        {
+            return _clientesAppService.GetDetallesCliente(ClienteId);
+        }
 
     }
 }

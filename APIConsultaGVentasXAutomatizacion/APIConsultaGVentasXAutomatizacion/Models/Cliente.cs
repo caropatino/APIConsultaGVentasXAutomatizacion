@@ -14,6 +14,9 @@
 
         public long CompaniaId { get; set; }
 
+        public ClienteDetalleContactos Contactos { get; set; }
+
+        public Guid VendedorId { get; set; }
 
     }
 }

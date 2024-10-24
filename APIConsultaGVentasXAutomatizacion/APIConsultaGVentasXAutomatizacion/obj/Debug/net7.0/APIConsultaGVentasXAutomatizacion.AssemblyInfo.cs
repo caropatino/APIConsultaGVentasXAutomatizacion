@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIConsultaGVentasXAutomatizacion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dc27a789aa18dda04d56db752a18c269bb66529")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+099f67aba9b4ac8ad9203191657c1a73a8718532")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIConsultaGVentasXAutomatizacion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIConsultaGVentasXAutomatizacion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

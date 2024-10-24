@@ -7,5 +7,7 @@ namespace APIConsultaGVentasXAutomatizacion.Services
         bool ValidarRIF(string RIF);
 
         public List<Cliente> GetClienteXIdentificacion(string NroIdentificacion);
+
+        public List<ClienteDTO> GetDetallesCliente(Guid ClienteId);
     }
 }

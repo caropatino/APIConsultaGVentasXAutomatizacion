@@ -70,6 +70,24 @@ namespace APIConsultaGVentasXAutomatizacion.Services
                     && c.CompaniaId == 5).ToList();
         }
 
-        
+        public List<ClienteDTO> GetDetallesCliente(Guid ClienteId)
+        {
+            return _context.AppClientes
+                .Where(c => c.Id == ClienteId
+                    && c.TenantId == new Guid("018FFA54-0C99-E0C2-7202-39F9BCBA9B8E")
+                    && c.CompaniaId == 5
+                    && c.Contactos.ClienteId == ClienteId
+                    && c.Contactos.EsPrincipal == true)
+                .Select(x => new ClienteDTO
+                {
+                    Id = x.Id,
+                    Codigo = x.Codigo,
+                    ContactoId = x.Contactos.ContactoId,
+                    VendedorId = x.VendedorId
+                })
+                .ToList();
+        }
+
+
     }
 }
