@@ -17,5 +17,7 @@
         public Guid ClienteId { get; set; } 
 
         public long CompaniaId { get; set; }
+
+        public TicketDetalleEtiquetas Etiquetas { get; set; }
     }
 }

@@ -4,6 +4,6 @@ namespace APIConsultaGVentasXAutomatizacion.Services
 {
     public interface ITicketsAppService
     {
-        List<Ticket> GetTicketsPorCliente(Guid ClienteId);
+        List<Ticket> GetTicketsPorCliente(Guid ClienteId, string NombreEtiqueta);
     }
 }

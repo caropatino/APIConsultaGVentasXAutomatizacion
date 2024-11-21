@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using APIConsultaGVentasXAutomatizacion.Models;
 using APIConsultaGVentasXAutomatizacion.Context;
 using APIConsultaGVentasXAutomatizacion.Services;
+using System.Threading.Tasks;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("Default");
@@ -33,4 +34,21 @@ app.MapControllers();
 
 app.UseRouting();
 
+app.MapGet("/", () => {
+    return Results.Extensions.HtmlResponse(@"
+<html>
+<head></head>
+<Body>   
+<center>  
+<H1>API Automatizacion<br> </h1>
+<p> Estado:
+<b> Running </b> desde " + System.DateTime.Now.ToString("dd/MM/yy hh:mm:ss") +
+                @"</p>                     
+</center>  
+</Body>  
+</html>");
+});
+
 app.Run();
+
+

@@ -23,9 +23,9 @@ namespace APIConsultaGVentasXAutomatizacion.Controllers
         }
 
         [HttpGet, Route("GetTicketsPorCliente")]
-        public List<Ticket> GetTicketsPorCliente(Guid ClienteId)
+        public List<Ticket> GetTicketsPorCliente(Guid ClienteId, string NombreEtiqueta)
         {
-            return _ticketsAppService.GetTicketsPorCliente(ClienteId);
+            return _ticketsAppService.GetTicketsPorCliente(ClienteId, NombreEtiqueta);
         }
 
     }

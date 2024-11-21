@@ -11,13 +11,14 @@ namespace APIConsultaGVentasXAutomatizacion.Services
             _context = context;
         }
 
-        public List<Ticket> GetTicketsPorCliente(Guid ClienteId)
+        public List<Ticket> GetTicketsPorCliente(Guid ClienteId, string NombreEtiqueta)
         {
             return _context.AppTickets
                .Where(t => t.ClienteId == ClienteId
                    && t.TenantId == new Guid("018FFA54-0C99-E0C2-7202-39F9BCBA9B8E")
                    && t.CompaniaId == 5
-                   && t.Estatus == 0).ToList();
+                   && t.Estatus == 0
+                   && t.Etiquetas.Etiqueta.Nombre == NombreEtiqueta).ToList();
         }
     }
 }
