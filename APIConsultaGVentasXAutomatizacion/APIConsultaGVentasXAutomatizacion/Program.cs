@@ -16,6 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IClientesAppService, ClientesAppService>();
 builder.Services.AddScoped<IOportunidadDeVentaAppService, OportunidadDeVentaAppService>();
 builder.Services.AddScoped<ITicketsAppService, TicketsAppService>();
+builder.Services.AddScoped<IVendedoresAppService, VendedoresAppService>();
 
 var app = builder.Build();
 

@@ -30,5 +30,13 @@ namespace APIConsultaGVentasXAutomatizacion.Controllers
             
         }
 
+        [HttpGet, Route("ValidarProductos")]
+        public bool ValidarProductos(string Productos, string valorDelUsuario)
+
+        {
+            return _oportunidadDeVentaAppService.ValidarProductos(Productos, valorDelUsuario) ;
+
+        }
+
     }
 }

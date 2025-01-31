@@ -18,7 +18,9 @@ namespace APIConsultaGVentasXAutomatizacion.Services
                    && t.TenantId == new Guid("018FFA54-0C99-E0C2-7202-39F9BCBA9B8E")
                    && t.CompaniaId == 5
                    && t.Estatus == 0
-                   && t.Etiquetas.Etiqueta.Nombre == NombreEtiqueta).ToList();
+                   && t.Etiquetas.Etiqueta.Nombre == NombreEtiqueta)
+               .OrderByDescending(t => t.CreationTime)
+               .ToList();
         }
     }
 }

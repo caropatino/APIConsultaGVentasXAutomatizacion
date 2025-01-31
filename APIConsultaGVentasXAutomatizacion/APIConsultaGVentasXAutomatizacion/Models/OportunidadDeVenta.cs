@@ -18,5 +18,7 @@
 
         public OportunidadDeVentaDetalleProducto Productos { get; set; }
 
+        public Guid VendedorId { get; set; }
+
     }
 }

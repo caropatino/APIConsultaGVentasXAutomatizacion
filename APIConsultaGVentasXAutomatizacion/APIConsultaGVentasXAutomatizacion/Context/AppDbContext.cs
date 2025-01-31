@@ -21,5 +21,9 @@ namespace APIConsultaGVentasXAutomatizacion.Context
 
         public DbSet<TicketDetalleEtiquetas> AppTicketDetalleEtiquetas { get; set; }
 
+        public DbSet<Ciudad> AppCiudades { get; set; }
+
+        public DbSet<Vendedor> AppVendedores { get; set; } 
+
     }
 }

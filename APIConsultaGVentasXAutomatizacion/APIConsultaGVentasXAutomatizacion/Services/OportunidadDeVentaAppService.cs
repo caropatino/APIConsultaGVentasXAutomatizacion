@@ -34,6 +34,20 @@ namespace APIConsultaGVentasXAutomatizacion.Services
                 
         }
 
+        public bool ValidarProductos (string Productos, string valorDelUsuario)
+        {
+            if (Productos.ToUpper().Contains(valorDelUsuario.ToUpper()))
+            {
+                return true;
+            }
+            
+            else
+            {
+                return false;
+            }
+
+        }
+
 
     }
 }

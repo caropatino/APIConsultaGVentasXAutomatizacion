@@ -8,38 +8,43 @@ using Microsoft.EntityFrameworkCore;
 using APIConsultaGVentasXAutomatizacion.Context;
 using APIConsultaGVentasXAutomatizacion.Models;
 using APIConsultaGVentasXAutomatizacion.Services;
-using Microsoft.AspNetCore.Mvc.Routing;
 using System.Text;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Newtonsoft.Json.Linq;
+using Microsoft.Extensions.Configuration;
 
 namespace APIConsultaGVentasXAutomatizacion.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ClientesController : ControllerBase
+    public class VendedoresController : ControllerBase
     {
-        
-        private readonly IClientesAppService _clientesAppService;
+        private readonly IVendedoresAppService _vendedoresAppService;
+        private IConfiguration _configuration;
 
-        public ClientesController(IClientesAppService clientesAppService)
+        public VendedoresController(IVendedoresAppService vendedoresAppService, IConfiguration iConfig)
         {
-            _clientesAppService = clientesAppService;
+            _vendedoresAppService = vendedoresAppService;
+            _configuration = iConfig;
         }
 
 
-        [HttpGet, Route("ValidarRIF")]
-        public bool ValidacionRIF(string RIF)
-        {
-            return _clientesAppService.ValidarRIF(RIF);
-        }
-
-
-        [HttpGet, Route("NumeroIdentificacion")]
-        public List<Cliente> GetClientePorRIF(string NumeroDeIdentificacion)
+        [HttpGet, Route("EscogerVendedorParaOportunidad")]
+        public Guid EscogerVendedorParaOportunidad(int estadoId)
         {
             try
             {
                 System.IO.File.AppendAllText(System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments), "e.txt"), "A");
-                return _clientesAppService.GetClienteXIdentificacion(NumeroDeIdentificacion);
+
+                var resultado = _vendedoresAppService.GetVendedorConMenosOportunidadesAbiertas(estadoId);
+
+                if (estadoId == 1 || resultado == null)
+                {
+                    return new Guid(_configuration.GetSection("idVendedorOficina").Value);
+                }
+
+                return resultado.VendedorId;
+                
             }
             catch (Exception ex)
             {
@@ -60,12 +65,5 @@ namespace APIConsultaGVentasXAutomatizacion.Controllers
             }
             return x.ToString();
         }
-
-        [HttpGet, Route("detalle")]
-        public List<ClienteDTO> GetDetallesCliente(Guid ClienteId)
-        {
-            return _clientesAppService.GetDetallesCliente(ClienteId);
-        }
-
     }
 }
